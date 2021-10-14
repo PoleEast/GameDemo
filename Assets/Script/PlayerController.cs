@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
         JudgeGround();
         Jump();
         Fall();
+        Debug.Log(playerRigidbody.velocity.x + "  " + playerRigidbody.velocity.y);
     }
     void Run()
     {
